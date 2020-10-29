@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import Categories from './Category_Bar/Categories'
 
-const BuyerHome = () =>{
-    return (
-        <div>
-            <Categories />
-        </div>
-    )
-}
+import Categories from "./Category_Bar/Categories";
 
-export default BuyerHome
+
+
+
+
+const BuyerHome = () => {
+  return (
+    <Categories />
+  );
+};
+
+export default BuyerHome;

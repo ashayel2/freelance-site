@@ -13,6 +13,7 @@ export const Nav = styled.nav`
     color: ${props => props.theme.colors.ghost};
     height: 80px;
     display: flex;
+    border-bottom: 5px solid black;
     justify-content: space-between;
     align-items: center;
     /* font-size: 1.2 rem; */

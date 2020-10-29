@@ -8,11 +8,13 @@ export const Category = styled.nav`
     background: ${props => props.theme.colors.coral};
     color: ${props => props.theme.colors.ghost};
     height: 100vh;
-    width: 350px;
+    width: 20vw;
+    /* border-top: 5px solid; */
+    border-left: 5px solid;
+    border-color: black;
     display: flex;
     flex-flow: column nowrap;
-    /* justify-content: space-between; */
-    position: relative;
+    position: fixed;
     z-index: 0;
 
     h3{

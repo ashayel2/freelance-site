@@ -8,6 +8,9 @@ const CategoryList = () =>{
     return (
         <CatList>
             <li>
+                <CatLink to='/'>All</CatLink>
+            </li>
+            <li>
                 <CatLink to='/design_and_creative'>Design and Creative</CatLink>
             </li>
             <li>
