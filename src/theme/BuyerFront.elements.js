@@ -9,20 +9,28 @@ export const HomeSpan = styled.div`
   /* grid-template-areas: "div div";
   grid-template-rows: "2fr 8fr"; */
 
-  flex-flow: row nowrap;
+  flex-flow: row nowrap ;
   justify-content: right;
-  align-items: center;
+  align-items: right;
   /* font-size: 1.2 rem; */
-  /* position: sticky; */
+  position: right;
   top: 0;
   z-index: 1;
 `;
+export const Spacing = styled.div`
+  display: flex;
+  height: 100vh;
+  width: 20vw;
+`
+
 
 export const Container = styled.div`
   background: ${(props) => props.theme.colors.crayola};
+  display: flex;
+  flex-flow: column nowrap;
   /* border-top: 5px solid black; */
   border-right: 5px solid black;
-  justify-content: center;
+  align-items: right;
   height: 100vh;
   width: 79vw;
 `;

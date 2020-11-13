@@ -8,7 +8,7 @@ export const Category = styled.nav`
     background: ${props => props.theme.colors.coral};
     color: ${props => props.theme.colors.ghost};
     height: 100vh;
-    width: 20vw;
+    width: 19.7vw;
     /* border-top: 5px solid; */
     border-left: 5px solid;
     border-color: black;

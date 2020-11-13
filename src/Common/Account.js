@@ -1,12 +1,17 @@
 import React from 'react';
 
+import Signup from './Signup'
+
 
 
 const Account  = () =>{
     return(
-        <h1>
-            Account
-        </h1>
+        <div>
+            <h1>
+                Account
+            </h1>
+            <Signup />
+        </div>
     )
 }
 
